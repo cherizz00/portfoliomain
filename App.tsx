@@ -16,13 +16,9 @@ const getStoredPreference = (): ThemeMode | null => {
   } catch (error) {
     console.warn('Unable to read theme preference', error);
   }
-  return null;
+   return null;
 };
 
-const getInitialDarkMode = () => {
-  if (typeof window === 'undefined') return false;
-  const storedPreference = getStoredPreference();
-  if (storedPreference) {
 const applyTheme = (mode: ThemeMode) => {
   if (typeof document === 'undefined') return;
   const root = document.documentElement;
@@ -32,6 +28,10 @@ const applyTheme = (mode: ThemeMode) => {
   root.dataset.theme = mode;
 };
 
+const getInitialDarkMode = () => {
+  if (typeof window === 'undefined') return false;
+  const storedPreference = getStoredPreference();
+  if (storedPreference) {
     return storedPreference === 'dark';
   }
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false;
