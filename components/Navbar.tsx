@@ -67,8 +67,8 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
                 ${mobileMenuOpen
               ? 'w-full bg-transparent border-transparent shadow-none pt-2 md:pt-6 rounded-none' // Open Menu: Transparent
               : isScrolled
-                ? 'w-[95%] md:w-fit md:min-w-[750px] md:px-10 h-12 md:h-14 rounded-full bg-white/70 dark:bg-[#1C1C1E]/70 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-lg shadow-black/5 dark:shadow-black/20 supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-[#1C1C1E]/60'
-                : 'w-full max-w-6xl h-14 md:h-20 rounded-3xl bg-white/50 dark:bg-[#0C0C0F]/50 border border-white/30 dark:border-white/5 backdrop-blur-md shadow-[0_25px_60px_rgba(15,15,15,0.05)] dark:shadow-[0_25px_60px_rgba(0,0,0,0.5)] supports-[backdrop-filter]:bg-white/30 dark:supports-[backdrop-filter]:bg-[#0C0C0F]/30'
+                ? 'w-[95%] md:w-fit md:min-w-[750px] md:px-10 h-12 md:h-14 rounded-full bg-white/60 dark:bg-[#1C1C1E]/60 backdrop-blur-3xl border border-white/20 dark:border-white/10 shadow-lg shadow-black/5 dark:shadow-black/20 supports-[backdrop-filter]:bg-white/50 dark:supports-[backdrop-filter]:bg-[#1C1C1E]/50'
+                : 'w-full max-w-6xl h-14 md:h-20 rounded-3xl bg-white/40 dark:bg-[#0C0C0F]/40 border border-white/30 dark:border-white/5 backdrop-blur-2xl shadow-[0_25px_60px_rgba(15,15,15,0.05)] dark:shadow-[0_25px_60px_rgba(0,0,0,0.5)] supports-[backdrop-filter]:bg-white/20 dark:supports-[backdrop-filter]:bg-[#0C0C0F]/20'
             }
             `}
         >
