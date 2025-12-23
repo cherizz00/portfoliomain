@@ -1,20 +1,46 @@
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# Dasari Venkata Prasanna Kumar
+### Full-Stack Engineer | AI Enthusiast | CSE @ NIT Durgapur
+
+[LinkedIn](https://www.linkedin.com/in/prasanna-kumar-399364261) • [GitHub](https://github.com/cherizz00) • [Portfolio](https://dasarivpk.com/)
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 About Me
+I'm a results-driven Computer Science undergraduate specializing in **Full-Stack Development**. I love building scalable web applications and integrating intelligent AI features to solve real-world problems. Currently pursuing my B.Tech at the **National Institute of Technology, Durgapur**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-jxXaDVdsAy8AMQLhlPxVhqev9IJrwt1
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Next.js, Tailwind CSS, Framer Motion, Bootstrap
+- **Backend**: Node.js, Express.js, Flask
+- **Database**: MongoDB, MySql
+- **Languages**: Python, Java, C, JavaScript, TypeScript
+- **Cloud/DevOps**: AWS (EC2, S3), Git, CI/CD
 
-## Run Locally
+## 🌟 Featured Projects
+- **[DeepFake Detection](https://github.com/cherizz00/DeepFake-Detection)**: A deep learning-based web application to identify AI-generated videos using ResNeXt and LSTM models.
+- **[Employee Attrition Prediction](https://github.com/cherizz00/Employee-Attrition)**: An ensemble ML model (Random Forest & XGBoost) achieving 85% accuracy in predicting workplace turnover.
 
-**Prerequisites:**  Node.js
+## 💼 Experience
+- **Logicmojo** (May 2025 – Jul 2025): Front-End Developer Intern. Developed responsive UI modules and integrated REST APIs.
 
+## 🛠️ Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cherizz00/portfoliomain.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+<div align="center">
+Built with ❤️ using React, Vite, and Tailwind CSS. Licensed under the [MIT License](LICENSE).
+</div>
